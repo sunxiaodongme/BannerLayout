@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.sunxiaodong.bannerlayout.view.BannerLayout
+        android:id="@+id/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:autoPlayDuration="5000"
+        app:indicatorGap="3dp"
+        app:indicatorMarginBottom="10dp"
+        app:indicatorPosition="centerBottom"
+        app:scrollDuration="900"
+        app:selectedIndicatorColor="?attr/colorPrimary"
+        app:selectedIndicatorRadius="6dp"
+        app:unSelectedIndicatorColor="#99ffffff"
+        app:unSelectedIndicatorRadius="6dp" />
+
+</FrameLayout>
